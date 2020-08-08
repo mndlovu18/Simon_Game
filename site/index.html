@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIMON</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id="content">
+      <h1 id="title">SIMON</h1>
+
+      <div class="simon-container">
+        <div class="simon-button green">
+          <p>Green</p>
+        </div>
+        <div class="simon-button red">
+          <p>Red</p>
+        </div>
+        <div class="simon-button yellow">
+          <p>Yellow</p>
+        </div>
+        <div class="simon-button blue">
+          <p>Blue</p>
+        </div>
+
+        <div>
+          <button id="play">CLICK HERE TO PLAY!</button>
+        </div>
+		  
+		  
+        <div>
+          <button id="replay">REPLAY</button>
+        </div>
+
+      </div>
+      <br>
+      <p id="counter">SCORE: <a id="clicks">0</a></p>
+      <div>
+        <audio controls id="music">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+      </script>
+
+    <script src="simon.js"></script>
+    <script src="buttons.js"></script>
+  </body>
+
+</html>

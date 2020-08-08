@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #dbcdf0;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#content h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.simon-container {
+  margin: 20px auto;
+  width:400px;
+  height:400px;
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.simon-container .simon-button {
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.simon-button.green {
+  background-color: #c9e4de;
+  border: 2px solid #5D6063;
+}
+
+.simon-button.red {
+  background-color: #f9c6c9;
+  border: 2px solid #5D6063;
+}
+
+.simon-button.yellow {
+  background-color: #faedcb;
+  border: 2px solid #5D6063;
+}
+
+.simon-button.blue {
+  background-color: #c6def1;
+  border: 2px solid #5D6063;
+}
+
+/* button hover */
+
+.simon-button.blue:hover {
+  opacity: .5;
+}
+
+.simon-button.yellow:hover {
+  opacity: .5;
+}
+
+.simon-button.green:hover {
+  opacity: .5;
+}
+
+.simon-button.red:hover {
+  opacity: .5;
+}
+
+#music {
+  display:none;
+}
+
+/*Click counter*/
+#counter {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  background-color: #f7d9c4;
+  padding: 20px;
+  border: 2px solid #5D6063;
+  border-radius: 10px;
+  font-style: bold;
+
+  width: 150px;
+  margin: 20px auto;
+}
+
+#play {
+  display: block;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #5D6063;
+  border-radius: 10px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#replay {
+
+  display: block;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #5D6063;
+  border-radius: 10px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#play:hover {
+  opacity: 0.7;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}

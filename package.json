@@ -1,0 +1,37 @@
+{
+  "name": "project-js-simon",
+  "version": "0.1.0",
+  "description": "Build a Simon game",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jsdoc": "^3.6.4",
+    "surge": "^0.21.5"
+  },
+  "scripts": {
+    "docs": "npx jsdoc -c ./.jsdoc.conf.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint .",
+    "publish": "npx surge site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfarmer/project-js-simon.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises"
+  ],
+  "author": "Jesse Farmer <jesse@20bits.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jfarmer/project-js-simon/issues"
+  },
+  "homepage": "https://github.com/jfarmer/project-js-simon#readme"
+}
